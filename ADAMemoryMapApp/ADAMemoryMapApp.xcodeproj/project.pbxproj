@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1085F6A82B9F5C1C00FC3C62 /* ADAMemoryMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085F6A72B9F5C1C00FC3C62 /* ADAMemoryMapAppApp.swift */; };
+		1085F6AA2B9F5C1C00FC3C62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085F6A92B9F5C1C00FC3C62 /* ContentView.swift */; };
+		1085F6AF2B9F5C1D00FC3C62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1085F6AE2B9F5C1D00FC3C62 /* Preview Assets.xcassets */; };
+		1085F6B12B9F5C1D00FC3C62 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085F6B02B9F5C1D00FC3C62 /* Persistence.swift */; };
+		1085F6B42B9F5C1D00FC3C62 /* ADAMemoryMapApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1085F6B22B9F5C1D00FC3C62 /* ADAMemoryMapApp.xcdatamodeld */; };
+		1085F6BE2B9F5C7A00FC3C62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1085F6BD2B9F5C7A00FC3C62 /* Assets.xcassets */; };
+		1085F6C02B9F5CC500FC3C62 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085F6BF2B9F5CC500FC3C62 /* Location.swift */; };
+		1085F6C32B9F5DA900FC3C62 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085F6C22B9F5DA900FC3C62 /* LocationsDataService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1085F6A42B9F5C1C00FC3C62 /* ADAMemoryMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADAMemoryMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1085F6A72B9F5C1C00FC3C62 /* ADAMemoryMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADAMemoryMapAppApp.swift; sourceTree = "<group>"; };
+		1085F6A92B9F5C1C00FC3C62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1085F6AE2B9F5C1D00FC3C62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1085F6B02B9F5C1D00FC3C62 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1085F6B32B9F5C1D00FC3C62 /* ADAMemoryMapApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ADAMemoryMapApp.xcdatamodel; sourceTree = "<group>"; };
+		1085F6BD2B9F5C7A00FC3C62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1085F6BF2B9F5CC500FC3C62 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		1085F6C22B9F5DA900FC3C62 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1085F6A12B9F5C1C00FC3C62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1085F69B2B9F5C1C00FC3C62 = {
+			isa = PBXGroup;
+			children = (
+				1085F6A62B9F5C1C00FC3C62 /* ADAMemoryMapApp */,
+				1085F6A52B9F5C1C00FC3C62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1085F6A52B9F5C1C00FC3C62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1085F6A42B9F5C1C00FC3C62 /* ADAMemoryMapApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1085F6A62B9F5C1C00FC3C62 /* ADAMemoryMapApp */ = {
+			isa = PBXGroup;
+			children = (
+				1085F6A72B9F5C1C00FC3C62 /* ADAMemoryMapAppApp.swift */,
+				1085F6A92B9F5C1C00FC3C62 /* ContentView.swift */,
+				1085F6C12B9F5D7900FC3C62 /* DataServices */,
+				1085F6BA2B9F5C3100FC3C62 /* Views */,
+				1085F6BB2B9F5C3700FC3C62 /* ViewModels */,
+				1085F6BC2B9F5C4500FC3C62 /* Models */,
+				1085F6B02B9F5C1D00FC3C62 /* Persistence.swift */,
+				1085F6BD2B9F5C7A00FC3C62 /* Assets.xcassets */,
+				1085F6B22B9F5C1D00FC3C62 /* ADAMemoryMapApp.xcdatamodeld */,
+				1085F6AD2B9F5C1D00FC3C62 /* Preview Content */,
+			);
+			path = ADAMemoryMapApp;
+			sourceTree = "<group>";
+		};
+		1085F6AD2B9F5C1D00FC3C62 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1085F6AE2B9F5C1D00FC3C62 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1085F6BA2B9F5C3100FC3C62 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1085F6BB2B9F5C3700FC3C62 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1085F6BC2B9F5C4500FC3C62 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1085F6BF2B9F5CC500FC3C62 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1085F6C12B9F5D7900FC3C62 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				1085F6C22B9F5DA900FC3C62 /* LocationsDataService.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1085F6A32B9F5C1C00FC3C62 /* ADAMemoryMapApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1085F6B72B9F5C1D00FC3C62 /* Build configuration list for PBXNativeTarget "ADAMemoryMapApp" */;
+			buildPhases = (
+				1085F6A02B9F5C1C00FC3C62 /* Sources */,
+				1085F6A12B9F5C1C00FC3C62 /* Frameworks */,
+				1085F6A22B9F5C1C00FC3C62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADAMemoryMapApp;
+			productName = ADAMemoryMapApp;
+			productReference = 1085F6A42B9F5C1C00FC3C62 /* ADAMemoryMapApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1085F69C2B9F5C1C00FC3C62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1085F6A32B9F5C1C00FC3C62 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 1085F69F2B9F5C1C00FC3C62 /* Build configuration list for PBXProject "ADAMemoryMapApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1085F69B2B9F5C1C00FC3C62;
+			productRefGroup = 1085F6A52B9F5C1C00FC3C62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1085F6A32B9F5C1C00FC3C62 /* ADAMemoryMapApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1085F6A22B9F5C1C00FC3C62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1085F6BE2B9F5C7A00FC3C62 /* Assets.xcassets in Resources */,
+				1085F6AF2B9F5C1D00FC3C62 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1085F6A02B9F5C1C00FC3C62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1085F6B12B9F5C1D00FC3C62 /* Persistence.swift in Sources */,
+				1085F6AA2B9F5C1C00FC3C62 /* ContentView.swift in Sources */,
+				1085F6C32B9F5DA900FC3C62 /* LocationsDataService.swift in Sources */,
+				1085F6C02B9F5CC500FC3C62 /* Location.swift in Sources */,
+				1085F6B42B9F5C1D00FC3C62 /* ADAMemoryMapApp.xcdatamodeld in Sources */,
+				1085F6A82B9F5C1C00FC3C62 /* ADAMemoryMapAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1085F6B52B9F5C1D00FC3C62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1085F6B62B9F5C1D00FC3C62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1085F6B82B9F5C1D00FC3C62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ADAMemoryMapApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3GB5WJ43G4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSDevJoy.ADAMemoryMapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1085F6B92B9F5C1D00FC3C62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ADAMemoryMapApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3GB5WJ43G4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSDevJoy.ADAMemoryMapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1085F69F2B9F5C1C00FC3C62 /* Build configuration list for PBXProject "ADAMemoryMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1085F6B52B9F5C1D00FC3C62 /* Debug */,
+				1085F6B62B9F5C1D00FC3C62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1085F6B72B9F5C1D00FC3C62 /* Build configuration list for PBXNativeTarget "ADAMemoryMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1085F6B82B9F5C1D00FC3C62 /* Debug */,
+				1085F6B92B9F5C1D00FC3C62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1085F6B22B9F5C1D00FC3C62 /* ADAMemoryMapApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1085F6B32B9F5C1D00FC3C62 /* ADAMemoryMapApp.xcdatamodel */,
+			);
+			currentVersion = 1085F6B32B9F5C1D00FC3C62 /* ADAMemoryMapApp.xcdatamodel */;
+			path = ADAMemoryMapApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1085F69C2B9F5C1C00FC3C62 /* Project object */;
+}
