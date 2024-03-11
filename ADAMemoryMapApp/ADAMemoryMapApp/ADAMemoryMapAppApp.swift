@@ -9,12 +9,17 @@ import SwiftUI
 
 @main
 struct ADAMemoryMapAppApp: App {
-    let persistenceController = PersistenceController.shared
+//    let persistenceController = PersistenceController.shared
+    
+    @StateObject private var vm = LocationsViewModel()
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            LocationsView()
+                .environmentObject(vm)
+            
+//            ContentView()
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
