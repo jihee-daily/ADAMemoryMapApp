@@ -17,6 +17,7 @@
 		1085F6C32B9F5DA900FC3C62 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085F6C22B9F5DA900FC3C62 /* LocationsDataService.swift */; };
 		1085F6C52B9F5F6400FC3C62 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085F6C42B9F5F6400FC3C62 /* LocationsView.swift */; };
 		1085F6C72B9F63AE00FC3C62 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085F6C62B9F63AE00FC3C62 /* LocationsViewModel.swift */; };
+		1085F6C92BA175E700FC3C62 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085F6C82BA175E700FC3C62 /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		1085F6C22B9F5DA900FC3C62 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		1085F6C42B9F5F6400FC3C62 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		1085F6C62B9F63AE00FC3C62 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		1085F6C82BA175E700FC3C62 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				1085F6C42B9F5F6400FC3C62 /* LocationsView.swift */,
+				1085F6C82BA175E700FC3C62 /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				1085F6B12B9F5C1D00FC3C62 /* Persistence.swift in Sources */,
 				1085F6AA2B9F5C1C00FC3C62 /* ContentView.swift in Sources */,
 				1085F6C32B9F5DA900FC3C62 /* LocationsDataService.swift in Sources */,
+				1085F6C92BA175E700FC3C62 /* LocationsListView.swift in Sources */,
 				1085F6C72B9F63AE00FC3C62 /* LocationsViewModel.swift in Sources */,
 				1085F6C02B9F5CC500FC3C62 /* Location.swift in Sources */,
 				1085F6B42B9F5C1D00FC3C62 /* ADAMemoryMapApp.xcdatamodeld in Sources */,
