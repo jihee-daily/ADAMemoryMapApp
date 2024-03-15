@@ -14,7 +14,8 @@ struct LocationsView: View {
 
     var body: some View {
         ZStack {
-            Map(coordinateRegion: $vm.mapRegion)
+            @State private var cameraPosition = MapCameraPosition.region(MKCoordinateRegion(center: $vm.coordinates)
+            Map(position: $cameraPosition)
 //            Map(coordinateRegion: $vm.mapRegion,
 //                annotationItems: vm.locations,
 //                annotationContent: { location in
@@ -24,6 +25,8 @@ struct LocationsView: View {
 //                }
 //            })
                 .ignoresSafeArea()
+            
+            
                         
             VStack(spacing: 0) {
                 header
