@@ -11,7 +11,7 @@ import MapKit
 struct LocationsView: View {
     
     @EnvironmentObject private var vm: LocationsViewModel
-
+ß
     var body: some View {
         ZStack {
             mapLayer
